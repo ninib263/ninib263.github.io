@@ -1,0 +1,118 @@
+body {
+   background: white; 
+}
+
+.wrapper {
+    max-width: 90%;
+    max-width: 960px;
+    min-height: 1000px;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background: whtie;
+    height:150px;
+}
+.logo{
+    background:white;
+    width:40%;
+    float:left;
+}
+
+.logo img{
+    width: 100px;
+
+}
+
+nav.meny{
+    background:white;
+    width:60%;
+    float:right;
+    margin-top: 45px;
+ }
+
+.imagesbar {
+    background: ;
+    background-image: url(../bilder/himmel.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width:100%;
+    height: 400px;
+}
+
+.flygplan{
+    width: 20%;
+    margin-top: 60px;
+    margin-left: 120px;
+}
+
+.resmal{
+    width: 30%;
+    float: left;
+    margin-right: 1%;
+
+}
+
+.resmal img{
+    width: 100%;
+}
+
+h2{
+    font-weight: 100;
+    font-size: 35px;
+    color: blue;
+    text-transform: uppercase;
+} 
+
+h3{
+    background: blue;
+    padding: 10px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    margin: 0px;
+    margin-top: -4px;
+}
+
+.resmal-info{
+  font-size: 1.1em;
+  line-height: 1.3em;
+}
+
+nav {
+
+}
+
+nav ul{
+    list-style-type: none;
+    padding:0px;
+    text-align: right;
+}
+
+nav li{
+    display: inline;
+    margin-left: 10px;
+    
+
+}
+
+nav a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: rgb(83, 1, 1);
+    font-size: 14px;
+    text-transform: uppercase;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    padding-bottom: 8px;
+    border-radius: 7px;
+}
+
+nav a:hover{
+    font-size: 15px;
+    background: blue;
+    color: black;
+
+}
