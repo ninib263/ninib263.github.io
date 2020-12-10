@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+</head>
+
+<body>
+    <p>klicka nedan för att skriva ut sidan.</p>
+
+    <button onclick="window.print()">Skriv ut</button>
+
+    <br>
+
+    <p id="demo">Tryck nedan för att ändra.</p>
+
+    <button type="button" onclick="myFunction()">Tryck här</button>
+<script src="java-10/task10.js"></script>
+<br>
+
+<p id="demo1"></p>
+
+<button onclick="clearInterval(myVar)">Stoppa tiden</button>
+
+<script>
+var myVar = setInterval(myTimer ,1000);
+function myTimer() {
+  var d = new Date();
+  document.getElementById("demo1").innerHTML = d.toLocaleTimeString();
+}
+</script>
+
+
+<br>
+<p>klicka "prova" för att stoppa tiden efter 3 sek.</p>
+<p>klicka "Stop" för att bryta funktionen ovan.</p>
+<p>(du måste klicka "stop" innan 3 sekunder är över!)</p>
+
+<button onclick="myVar = setTimeout(myFunction, 3000)">prova</button>
+
+<button onclick="clearTimeout(myVar)">Stop </button>
+
+<script>
+function myFunction() {
+  alert("hej!");
+}
+</script>
+
+<br>
+<p>while loop med javascript </p>
+<p id="demo2"></p>
+
+<script>
+var text = "";
+var i = 0;
+while (i < 10) {
+  text += "<br>Nummret är " + i;
+  i++;
+}
+document.getElementById("demo2").innerHTML = text;
+</script>
+
+</body>
+
+</html>
