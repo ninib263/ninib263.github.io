@@ -267,7 +267,7 @@ font-weight: 700;
 .formular .input{
   width: 100%;
   margin-top: 15px;
-  position: relative;
+  position: static;
 }
 
 
@@ -275,7 +275,7 @@ font-weight: 700;
 .formular .input textarea{
   margin: 10px 0px;
   padding: 5px 0px;
-  width: 100%;
+  width: 150%;
   font-size: 15px;
 
 }
