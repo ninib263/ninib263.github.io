@@ -1,0 +1,485 @@
+body {
+    background: white;
+    background-image: url('https://cdn.hipwallpaper.com/i/92/18/b42iYx.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+* { 
+  margin: 0; 
+  box-sizing: border-box;
+  padding: 0;
+
+}
+
+
+.toppnav {
+  position: sticky;
+  top: 0;
+  background: #485b72;
+  font-size: 1.2rem;
+  z-index: 999;
+  height: 80px;
+  align-items: center;
+  display: flex ;
+  justify-content: center;
+}
+
+.toppnav_innehall {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  margin: 0 auto;
+  padding: 0 50px;
+  z-index: 1;
+  width: 100%;
+  max-width: 1500px;
+}
+
+.menyfa{
+  margin-right: 0.5rem;
+}
+
+.toppnav_link{
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  padding: 0 1rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.toppnav_link:hover {
+  color: #323e4e;
+  transition: all 0.3s ease;
+}
+
+.toppnav_punkt{
+  height: 80px;
+}
+
+.toppnav_meny{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+}
+
+@media screen and (max-width: 960px){
+  .toppnav_meny{
+    background: #485b72;
+    width: 100%;
+    top: -1000px;
+    transition: all 0.5s ease;
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto;
+    margin: 0;
+    opacity: 0;
+    z-index: -1;
+    height: 50vh;
+  }
+  .toppnav_innehall{
+    height: 80px;
+    justify-content: space-between;
+    max-width: 1350px;
+    padding: 0;
+    display: flex;
+    z-index: 1;
+
+    
+  }
+
+  .toppnav_punkt{
+    width: 100%;
+  }
+  .toppnav_meny.active{
+    top: 100%;
+    opacity: 1;
+    background: #485b72;
+    transition: all 0.5s ease;
+    font-size: 1.6rem;
+    z-index: 99;
+    height: 50vh;
+  
+  }
+  .toppnav_mobil .streck{
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background: #fff;
+  }
+  #toppnav_logo{
+    padding-left: 25px;
+  }
+.toppnav_link{
+  text-align: center;
+  display: table;
+  padding: 2rem;
+  width: 100%;
+}
+
+#mobil-meny{
+  position: absolute;
+  top: 20%;
+
+  right: 5%;
+}
+.toppnav_btn{
+  padding-bottom: 2rem;
+}
+.knapp{
+  align-items: center;
+  width: 80%;
+  justify-content: center;
+  height: 80px;
+  margin: 0;
+  display: flex;
+}
+
+  .toppnav_mobil .streck{
+    cursor: pointer;
+    display: block;
+
+  }
+
+}
+
+
+.hem .innehall-hem h1{
+  font-weight: 300;
+  font-size: 30px;
+  text-shadow: 2px 2px 3px black;
+  letter-spacing: 3px;
+}
+
+.hem {
+  height: 85vh;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.hem .innehall-hem {
+text-align: center;
+color: white;
+}
+
+
+
+
+
+
+.hem .innehall-hem p{
+  font-size: 20px;
+} 
+
+.hem .innehall-hem h3 {
+  font-weight: 900;
+  font-size: 50px;
+  text-shadow: 3px 2px 4px black;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+
+.kontakt .innehall-kontakt{
+  text-align: center;
+  max-width: 800px;
+  color: white;
+}
+.kontakt{
+  display: flex;
+  min-height: 80vh;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px 150px;
+  align-items: center;
+  position: relative;
+}
+
+.cont .info{
+  display: flex;
+   width: 60%;
+flex-direction: column;
+ }
+
+
+.kontakt .innehall-kontakt h1{
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+}
+x
+ .cont{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 40px;
+ }
+
+ .cont .info .ruta .ikoner{
+  justify-content: center;
+  min-width: 100px;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  font-size: 40px;
+}
+
+
+
+ .cont .info .ruta{
+   position: relative;
+   display: flex;
+   padding: 15px 0px;
+ }
+
+ .cont .info{
+  display: flex;
+   width: 60%;
+flex-direction: column;
+ }
+
+
+ .cont .info .ruta .text h2{
+  font-weight: 700;
+}
+
+ .cont .info .ruta .text{
+   display: flex;
+   font-weight: 400;
+   color: white;
+   flex-direction: column;
+   font-size: 16px;
+   margin-left: 20px;
+ }
+
+
+ .formular
+ h3{
+  font-size: 40px;
+color: white;
+font-weight: 700;
+}
+
+.formular{
+  width: 50%;
+  padding: 30px;
+
+}
+
+
+
+
+.formular .input{
+  width: 100%;
+  margin-top: 15px;
+  position: static;
+}
+
+.formular .input p{
+  color: white;
+ font-size: 20px;
+ }
+
+.formular .input input,
+.formular .input textarea{
+  margin: 10px 0px;
+  padding: 5px 0px;
+  width: 100%;
+  font-size: 15px;
+
+}
+
+
+
+ .rubrik{
+  color: white;
+  font-size: 50px;
+  font-weight: 800;
+  align-items: center;
+}
+
+.oss-cont{
+  margin: 17px 37px;
+  color: whitesmoke;
+}
+
+
+
+.profil{
+  flex-basis: 350px;
+}
+
+.profiler{
+  justify-content: center;
+  margin: 17pc 37px;
+  display: flex;
+  margin: 100px;
+}
+
+.profil .profil-bild{
+  border-radius: 250px;
+  height: 250px;
+  transition: 0.1s;
+  cursor: pointer;
+  filter: grayscale(100%);
+  width: 250px;
+}
+
+.profil:hover  .profil-bild{
+  filter: grayscale(0%);
+}
+  
+.profil p{
+  margin-top: 25px;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.namn{
+  font-weight: 200;
+  margin-top: 25px;
+  color: white;
+  letter-spacing: 3px;
+}
+
+@media only screen and (max-width: 1200px){
+.profil {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+  .profil .p{
+    font-size: 19px;
+  margin: 19px 59px 79px 59px;
+    text-align: center;
+  }
+  .profiler{
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 960px){
+  .rubrik{
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    
+  }
+  .profiler{
+    margin: 20px;
+  }
+}
+
+.innehall-hel{
+  width: 70%;
+  padding-top: 100px;
+  margin: auto;
+  display: block;
+}
+.omoss-del{
+  width: 100%;
+  margin-top: 150px;
+  min-height: 100vh;
+}
+
+.innehall-del{
+  width: 60%;
+  float: left;
+}
+
+.bild-oss{
+  width: 40%;
+  float: right;
+}
+
+.bild-oss img{
+  height: auto;
+  width: 100%;
+
+}
+
+.innehall-del .innehall-oss{
+  color: white;
+  margin-top: 19px;
+}
+.innehall-del .innehall-oss .knapp-oss{
+  margin-top: 30px;
+}
+.innehall-del .innehall-oss .knapp-oss a:hover{
+color: white;
+background-color: #323e4e;
+}
+.innehall-del .innehall-oss .knapp-oss a{
+background-color: #485b72;
+color: white;
+text-decoration: none;
+font-size: 20px;
+padding: 12px 40px;
+letter-spacing: 1.6px;
+
+}
+
+.innehall-del .rubrik-oss{
+  font-size: 29px;
+  text-transform: uppercase;
+}
+.innehall-del .rubrik-res{
+  font-size: 29px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.innehall-del .innehall-oss p{
+margin-top: 9px;
+line-height: 1.5;
+font-size: 16px;
+}
+.innehall-del .innehall-oss h3{
+  font-size: 20px;
+  margin-top: 22px;
+  color: white;
+}
+.rubrik-oss h2{
+  color: white;
+}
+
+.innehall-del .medier{
+  margin: 39px 39px;
+}
+.innehall-del .medier i{
+  color: white;
+  font-size: 30px;
+  padding-top: 0px 10px;
+
+}
+.innehall-del .medier i:hover{
+  color: black;
+  font-size: 40px;
+}
+
+@media screen and (max-width: 960px){
+  .innehall-hel{
+    width: 70%;
+    padding-top: 49px;
+    margin: auto;
+    display: block;
+  }
+  .innehall-del .medier i{
+    color: white;
+    font-size: 20px;
+    padding-top: 0px 10px;
+  }
+  .innehall-del .medier i:hover{
+    color: black;
+    font-size: 29px;
+  }
+}
